@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 30px 40px;
+    width: 100%;
+    border: 10px solid gray;
+    height: 500px;
+}

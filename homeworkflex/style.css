@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.cabecera {
+    display: flex;
+    background-color: #457B9D;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecera div {
+    color: white;
+    font-size: 5rem;
+    padding: 0 2rem 1rem;
+}
+.cabecera ul li {
+    list-style: none;
+    color: white;
+    display: inline-block;
+    padding: 0 2rem;
+}
+.principal {
+    display: flex;
+}
+.principal aside {
+    flex-basis: calc(20%);
+    background-color: #A8DADC;
+}
+.principal aside div {
+    border-radius: 1rem;
+    margin: 2rem;
+    width: auto;
+    height: 15rem;
+    background-color: #F1FAEE;
+}
+.principal section {
+    flex-basis: calc(80%);
+    background-color: #F1FAEE;
+    padding: 2rem
+}
+.pie {
+    background-color: #457B9D;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
