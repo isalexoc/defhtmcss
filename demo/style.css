@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: aqua;
+}
+
+main {
+    width: 100vw;
+    height: 75vh;
+    background-color: bisque;
+}
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: blue;
+} 
